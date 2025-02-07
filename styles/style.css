@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url(./cabecalho.css);
 @import url(./contato.css);
 @import url(./home.css);
 @import url(./projetos.css);
 @import url(./responsividade.css);
-
+@import url(./curriculo.css);
+@import url(./rodape.css);
 
 :root{
     --cor-principal: #1E201E;
@@ -23,13 +25,4 @@ body {
     color: var(--cor-secundaria);
     box-sizing: border-box;
     font-family: var(--font-principal);
-}
-.rodape{
-    display: flex;
-    background-color: var(--cor-terciaria);
-    color: var(--cor-principal);
-    font-size: 1.5rem;
-    font-weight: 400;
-    justify-content: center;
-    padding: 24px;
 }

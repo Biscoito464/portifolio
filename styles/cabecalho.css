@@ -1,0 +1,22 @@
+.cabecalho {
+    padding: 2% 5%;
+}
+
+.cabecalho__menu {
+    display: flex;
+    gap: 80px;
+    align-items: center;
+    font-size: 24px;
+    color: var(--cor-terciaria);
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    flex-wrap: nowrap; /* Impede que o menu quebre para a linha */
+}
+
+/* Estilos para links */
+.cabecalho__menu__links {
+    text-decoration: none;
+    color: var(--cor-terciaria);
+    white-space: nowrap; /* Impede que os links quebrem para a linha de baixo */
+}
+
+

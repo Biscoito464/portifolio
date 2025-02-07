@@ -1,0 +1,45 @@
+.inicio__curriculo {
+    padding: 5% 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 82px;
+    background-repeat: no-repeat;
+    background-size: 24%;
+    align-items: flex-start;
+}
+
+/* Conteúdo do currículo */
+.conteudo__curriculo {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+/* Título da lista */
+.titulo__lista {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: var(--cor-secundaria);
+}
+
+/* Lista de estudos */
+.lista__estudos {
+    list-style: none;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    display: grid; /* Usando grid para as colunas */
+    grid-template-columns: repeat(2, 1fr); /* Duas colunas */
+    gap: 20px; /* Espaçamento entre as colunas */
+}
+
+.lista__estudos a {
+    display: block;
+    color: var(--cor-terciaria);
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+

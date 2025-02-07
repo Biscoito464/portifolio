@@ -7,9 +7,12 @@
     align-items: center;
     padding-bottom: 2rem;
 }
-.headline{
+
+.headline {
+    font-size: 1.5rem;
     padding: 24px;
 }
+
 .container-projects {
     width: 95%;
     display: flex;
@@ -29,7 +32,7 @@
 .cards-projects {
     display: grid;
     grid-template-columns: repeat(3, minmax(300px, 1fr));
-    gap: 2rem;
+    gap: 3rem;
     justify-content: center;
 }
 
@@ -159,7 +162,7 @@
     background-color: var(--cor-principal);
     color: var(--cor-secundaria);
     border-radius: 5px;
-    border: 2px solid  var(--cor-terciaria);
+    border: 2px solid var(--cor-terciaria);
     text-transform: uppercase;
     font-size: 1rem;
     transition: background-color 0.3s;
@@ -170,3 +173,4 @@
     background-color: var(--cor-secundaria);
     color: var(--cor-terciaria);
 }
+

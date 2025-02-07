@@ -1,17 +1,212 @@
-@media (max-width: 1200px ) {
-    .cabecalho{
-        padding: 8%;
-        font-size: 1.5rem ;
-    }
-    .cabecalho__menu{
-        justify-content: center;
-        gap: 10px;
-    }
-    .inicio{
-        flex-direction: column-reverse;
+@media (max-width: 1024px) {
+    .inicio {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
         padding: 5%;
+        gap: 40px;
     }
-    .inicio__conteudo{
-        width: auto;
+
+    .inicio__conteudo {
+        width: 80%;
+    }
+
+    .foto {
+        width: 70%;
+    }
+    .cabecalho {
+        padding: 2% 5%;
+    }
+    .cabecalho__menu {
+        gap: 40px;
+        font-size: 20px;
+    }
+    .cards-projects {
+        grid-template-columns: repeat(2, minmax(280px, 1fr));
+        gap: 2rem;
+    }
+
+    .text-project h2 {
+        font-size: 1.25rem;
+    }
+
+    .text-project p {
+        font-size: 0.9rem;
+    }
+
+    .btn-project a {
+        font-size: 0.9rem;
+    }
+    .inicio__curriculo {
+        padding: 5% 8%;
+        gap: 40px; /* Reduz o espaçamento entre os elementos */
+    }
+
+    .conteudo__curriculo {
+        width: 60%; /* Ajusta a largura do conteúdo */
+    }
+
+    .titulo__lista {
+        font-size: 1.75rem;
+    }
+
+    .lista__estudos {
+        font-size: 1.1rem;
+    }
+
+    .lista__estudos a {
+        font-size: 1.1rem; /* Ajusta o tamanho do texto dos links */
+    }
+}
+
+@media (max-width: 768px) {
+    .inicio__conteudo__titulo {
+        font-size: 1.75rem;
+    }
+
+    .apresentacao, .botoes__title, .links {
+        font-size: 1.25rem;
+    }
+
+    .links {
+        width: 80%;
+        padding: 16px 0;
+    }
+    .cabecalho {
+        padding: 2% 3%;
+    }
+    .cabecalho__menu {
+        gap: 20px;
+        font-size: 18px;
+        justify-content: center; /* Garante que os itens fiquem centralizados */
+        flex-wrap: nowrap; /* Mantém o cabeçalho na horizontal */
+    }
+    .cards-projects {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .headline {
+        font-size: 1.2rem;
+    }
+
+    .card-project {
+        padding: 1rem;
+    }
+
+    .img-project {
+        height: 150px;
+    }
+
+    .text-project h2 {
+        font-size: 1.2rem;
+    }
+
+    .text-project p {
+        font-size: 0.85rem;
+    }
+
+    .btn-project a {
+        font-size: 0.85rem;
+        padding: 0.5rem;
+    }
+    .inicio__curriculo {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 40px; /* Ajusta o espaçamento para o layout vertical */
+    }
+
+    .conteudo__curriculo {
+        width: 100%;
+    }
+
+    .titulo__lista {
+        font-size: 1.5rem;
+    }
+
+    .lista__estudos {
+        font-size: 1rem;
+    }
+
+    .lista__estudos a {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .inicio {
+        gap: 20px;
+    }
+
+    .inicio__conteudo {
+        width: 100%;
+    }
+
+    .foto {
+        width: 90%;
+    }
+
+    .botoes {
+        gap: 16px;
+    }
+
+    .links {
+        font-size: 1rem;
+        width: 100%;
+        padding: 12px 0;
+    }
+    .cabecalho {
+        padding: 1% 2%; /* Menos padding para o cabeçalho no celular */
+    }
+    .cabecalho__menu {
+        gap: 10px;
+        font-size: 18px;
+        justify-content: center; /* Centraliza os itens */
+    }
+    .headline {
+        font-size: 1rem;
+    }
+
+    .text-project h2 {
+        font-size: 1rem;
+    }
+
+    .text-project p {
+        font-size: 0.8rem;
+    }
+
+    .btn-project a {
+        font-size: 0.8rem;
+        padding: 0.5rem;
+    }
+
+    .img-project {
+        height: 120px;
+    }
+
+    .cards-projects {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+    .inicio__curriculo {
+        padding: 5% 5%;
+        gap: 20px; /* Ajusta o espaçamento para telas menores */
+    }
+
+    .conteudo__curriculo {
+        width: 100%;
+    }
+
+    .titulo__lista {
+        font-size: 1.3rem;
+    }
+
+    .lista__estudos {
+        grid-template-columns: 1fr; /* Apenas uma coluna em telas menores */
+        font-size: 1rem; /* Ajusta o tamanho da fonte */
+    }
+
+    .lista__estudos a {
+        font-size: 0.9rem;
     }
 }
